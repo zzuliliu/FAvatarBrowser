@@ -35,12 +35,30 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="屏幕快照 2016-05-06 11.19.23.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gq5-dp-WHF">
+                                <rect key="frame" x="10" y="540" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Eqp-Iu-LDU"/>
+                                    <constraint firstAttribute="width" constant="50" id="WCu-ZT-bcu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="屏幕快照 2016-05-06 11.19.23.png" translatesAutoresizingMaskIntoConstraints="NO" id="1jZ-SF-MIq">
+                                <rect key="frame" x="540" y="540" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3oS-Db-qsb"/>
+                                    <constraint firstAttribute="width" constant="50" id="qkr-Z9-c6b"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="S5h-bY-rEO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="As5-EK-uWk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1jZ-SF-MIq" secondAttribute="bottom" constant="10" id="EgZ-Cd-Nfh"/>
                             <constraint firstAttribute="trailing" secondItem="S5h-bY-rEO" secondAttribute="trailing" constant="10" id="H0h-0h-8UQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gq5-dp-WHF" secondAttribute="bottom" constant="10" id="Lek-Sq-zQv"/>
+                            <constraint firstAttribute="trailing" secondItem="1jZ-SF-MIq" secondAttribute="trailing" constant="10" id="dTn-7O-6W4"/>
                             <constraint firstItem="S5h-bY-rEO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uDy-OF-pQ1"/>
+                            <constraint firstItem="Gq5-dp-WHF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="zzC-9i-b6c"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -65,6 +83,8 @@
                     </view>
                     <connections>
                         <outlet property="imgView" destination="S5h-bY-rEO" id="qS9-VJ-BxU"/>
+                        <outlet property="secondImgView" destination="Gq5-dp-WHF" id="gG9-KM-dxa"/>
+                        <outlet property="thirdImgView" destination="1jZ-SF-MIq" id="Lyk-VY-hjT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

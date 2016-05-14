@@ -12,6 +12,8 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UIImageView *secondImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *thirdImgView;
 
 @end
 
@@ -19,10 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //首先给需要放大的imageview添加一个手势
-    self.imgView.userInteractionEnabled = YES;
-    UITapGestureRecognizer *tap  = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(magnifyImage)];
-    [self.imgView addGestureRecognizer:tap];
+    NSArray *imgViewArrs = @[self.imgView, self.secondImgView, self.thirdImgView];
+    for (UIImageView *imgView in imgViewArrs) {
+        imgView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tap  = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(magnifyImage)];
+        [imgView addGestureRecognizer:tap];
+    }
 }
 
 //调用放大方法
