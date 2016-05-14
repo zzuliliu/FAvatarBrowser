@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346EEFEE1CE76AF300185ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346EEFEC1CE76AF300185ABB /* Main.storyboard */; };
 		3488EFC01CE34E3D00E84BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488EFBF1CE34E3D00E84BC6 /* main.m */; };
 		3488EFC31CE34E3D00E84BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488EFC21CE34E3D00E84BC6 /* AppDelegate.m */; };
 		3488EFC61CE34E3D00E84BC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488EFC51CE34E3D00E84BC6 /* ViewController.m */; };
-		3488EFC91CE34E3D00E84BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3488EFC71CE34E3D00E84BC6 /* Main.storyboard */; };
 		3488EFCB1CE34E3D00E84BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3488EFCA1CE34E3D00E84BC6 /* Assets.xcassets */; };
 		3488EFCE1CE34E3D00E84BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3488EFCC1CE34E3D00E84BC6 /* LaunchScreen.storyboard */; };
 		3488EFD71CE34E9F00E84BC6 /* FAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488EFD61CE34E9F00E84BC6 /* FAvatarBrowser.m */; };
@@ -18,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346EEFED1CE76AF300185ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3488EFBB1CE34E3C00E84BC6 /* ClickImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3488EFBF1CE34E3D00E84BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3488EFC11CE34E3D00E84BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3488EFC21CE34E3D00E84BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3488EFC41CE34E3D00E84BC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3488EFC51CE34E3D00E84BC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3488EFC81CE34E3D00E84BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3488EFCA1CE34E3D00E84BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3488EFCD1CE34E3D00E84BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3488EFCF1CE34E3D00E84BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 				3488EFC51CE34E3D00E84BC6 /* ViewController.m */,
 				3488EFD51CE34E9F00E84BC6 /* FAvatarBrowser.h */,
 				3488EFD61CE34E9F00E84BC6 /* FAvatarBrowser.m */,
-				3488EFC71CE34E3D00E84BC6 /* Main.storyboard */,
 				3488EFCA1CE34E3D00E84BC6 /* Assets.xcassets */,
+				346EEFEC1CE76AF300185ABB /* Main.storyboard */,
 				3488EFCC1CE34E3D00E84BC6 /* LaunchScreen.storyboard */,
 				3488EFCF1CE34E3D00E84BC6 /* Info.plist */,
 				3488EFBE1CE34E3D00E84BC6 /* Supporting Files */,
@@ -147,7 +147,7 @@
 				3488EFD91CE353B200E84BC6 /* 屏幕快照 2016-05-06 11.19.23.png in Resources */,
 				3488EFCE1CE34E3D00E84BC6 /* LaunchScreen.storyboard in Resources */,
 				3488EFCB1CE34E3D00E84BC6 /* Assets.xcassets in Resources */,
-				3488EFC91CE34E3D00E84BC6 /* Main.storyboard in Resources */,
+				346EEFEE1CE76AF300185ABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,10 +168,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3488EFC71CE34E3D00E84BC6 /* Main.storyboard */ = {
+		346EEFEC1CE76AF300185ABB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3488EFC81CE34E3D00E84BC6 /* Base */,
+				346EEFED1CE76AF300185ABB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,6 +310,7 @@
 				3488EFD41CE34E3D00E84BC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
